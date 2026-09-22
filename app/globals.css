@@ -63,3 +63,13 @@ html {
 body {
   font-family: var(--font-sans);
 }
+
+.immersive-cove canvas {
+  touch-action: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -1,5 +1,6 @@
 import { SiteHeader } from '@/components/site-header'
 import { Hero } from '@/components/hero'
+import { ImmersiveCove } from '@/components/immersive-cove'
 import { Philosophy } from '@/components/philosophy'
 import { Programmes } from '@/components/programmes'
 import { PrivacySafety } from '@/components/privacy-safety'
@@ -14,6 +15,7 @@ export default function HomePage() {
       <SiteHeader />
       <main>
         <Hero />
+        <ImmersiveCove />
         <Philosophy />
         <Programmes />
         <PrivacySafety />
