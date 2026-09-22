@@ -22,9 +22,10 @@ export function SiteFooter() {
           <Link href="#visit" className="hover:text-primary">Visit</Link>
         </nav>
 
-        <p className="text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} Kiddie Cove. All rights reserved.
-        </p>
+        <div className="text-xs text-muted-foreground">
+          <p>&copy; {new Date().getFullYear()} Kiddie Cove. All rights reserved.</p>
+          <p className="mt-1">Developed by Tempatan Tech</p>
+        </div>
       </div>
     </footer>
   )
