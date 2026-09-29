@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Kiddie Cove Management',
+  description: 'A calm operations dashboard for Kiddie Cove school leadership in Medini, Iskandar Puteri.',
   generator: 'v0.app',
   icons: {
     icon: [
