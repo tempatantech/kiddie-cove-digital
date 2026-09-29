@@ -16,9 +16,9 @@ const nunito = Nunito({
 })
 
 export const metadata: Metadata = {
-  title: 'Kiddie Cove | Premium Play School in Iskandar Puteri, Johor',
+  title: 'Kiddie Cove | Management Portal',
   description:
-    'Kiddie Cove is a boutique, European-inspired play school in Iskandar Puteri, Johor. Reggio Emilia and Scandinavian forest-school approaches, small classes, and uncompromising child privacy for families across Johor Bahru.',
+    'A calm, practical management dashboard for Kiddie Cove school leaders to monitor students, utilities, local alerts, and parent communications.',
   keywords: [
     'kindergarten Iskandar Puteri',
     'play school Johor Bahru',
